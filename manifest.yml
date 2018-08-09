@@ -1,0 +1,8 @@
+---
+applications:
+- name: don-aop-sample
+  buildpack: dotnet_core_buildpack
+  health-check-type: process
+  memory: 256M
+  instances: 1
+  no-route: true

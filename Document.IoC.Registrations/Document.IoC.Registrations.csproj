@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Document.Aspect.Decryption\Document.Aspect.Decryption.csproj" />
+    <ProjectReference Include="..\Document.Aspects.Logging\Document.Aspects.Logging.csproj" />
+    <ProjectReference Include="..\Document.Aspects.Validator\Document.Aspects.Validator.csproj" />
+    <ProjectReference Include="..\Document.Upload.Service\Document.Upload.Service.csproj" />
+  </ItemGroup>
+
+</Project>
